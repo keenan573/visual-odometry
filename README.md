@@ -31,7 +31,7 @@ p0 = p0.reshape(-1,1,2)
 ```
 In the figure below, you can see an image taken by the Turtlebot's camera with the feature points detected by the FAST algorithm.
 
-![alt text](https://github.com/keenan573/visual-odometry/images/FASTfeatures2.png "Camera image with feature points")
+![alt text](https://github.com/keenan573/visual-odometry/tree/master/images/FASTfeatures2.png "Camera image with feature points")
 
 ## Optical Flow
 
@@ -94,4 +94,4 @@ I implemented the visual odometry on the Turtlebot using ROS, with the help of [
 
 One of the estimated paths found using this algorithm can be seen in the image below. The estimated path is certainly not perfect, but is able to show turns and the general direction taken by the robot. One challenge I had was a lack of features to track in the room where the testing was done, and the results would likely be better in a more feature-rich environment.
 
-![alt text](https://github.com/keenan573/visual-odometry/images/pathcropped-01.png "One of the estimated paths")
+![alt text](https://github.com/keenan573/visual-odometry/tree/master/images/pathcropped-01.png "One of the estimated paths")
