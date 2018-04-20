@@ -92,8 +92,6 @@ I implemented the visual odometry on the Turtlebot using ROS, with the help of [
 
 ## Results
 
-One of the estimated paths found using this algorithm can be seen in the image below. The estimated path is certainly not perfect, but is able to show turns and the general direction taken by the robot. One challenge I had was a lack of features to track in the room where the testing was done, and the results would likely be better in a more feature-rich environment.
+One of the estimated paths found using this algorithm can be seen in the image below. The estimated path is certainly not perfect, but is able to show turns and the general direction taken by the robot. One challenge I had was a lack of features to track in the room where the testing was done, and the results would likely be better in a more feature-rich environment. To see a video demo of the visual odometry, click [here](https://youtu.be/h1oka5SFms8).
 
 ![path](pathcropped-01.png)
-
-To see a video demo of the visual odometry, click [here](https://youtu.be/h1oka5SFms8).
