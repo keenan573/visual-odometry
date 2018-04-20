@@ -50,7 +50,7 @@ good_old = p0[st==1]
 
 ## Calculating the Essential Matrix
 
-After finding the locaions of corresponding points in two sequential frames, this information can be used to calculate the essential matrix. The essential matrix is based on the epipolar geometry describing the relative positions of the camera and contains the information needed to extract the rotation and translation from one camera frame to the next. For more information on epipolar geometry and the essential matrix, click [here](https://docs.opencv.org/3.1.0/da/de9/tutorial_py_epipolar_geometry.html).
+After finding the locations of corresponding points in two sequential frames, this information can be used to calculate the essential matrix. The essential matrix is based on the epipolar geometry describing the relative positions of the camera and contains the information needed to extract the rotation and translation from one camera frame to the next. For more information on epipolar geometry and the essential matrix, click [here](https://docs.opencv.org/3.1.0/da/de9/tutorial_py_epipolar_geometry.html).
 
 ```python
 #Find the essential matrix
@@ -95,3 +95,5 @@ I implemented the visual odometry on the Turtlebot using ROS, with the help of [
 One of the estimated paths found using this algorithm can be seen in the image below. The estimated path is certainly not perfect, but is able to show turns and the general direction taken by the robot. One challenge I had was a lack of features to track in the room where the testing was done, and the results would likely be better in a more feature-rich environment.
 
 ![path](pathcropped-01.png)
+
+To see a video demo of the visual odometry, click [here](https://youtu.be/h1oka5SFms8).
